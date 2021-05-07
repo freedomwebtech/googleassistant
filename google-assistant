@@ -27,6 +27,6 @@
 --scope https://www.googleapis.com/auth/gcm \
 --save --headless
 
-14)googlesamples-assistant-pushtotalk --project-id <projectid> --device-model-id <deviceid>
+14)googlesamples-assistant-pushtotalk --project-id <projectid> --device-model-id <deviceid>  -- run this 14) number command without sudo
 
 14) friends you can create bash file and inside that you can save the 13 number command with project id and device id so next time you can simply run your bash file to activate assitant 
