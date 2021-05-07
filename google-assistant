@@ -10,21 +10,22 @@
 
 6)mkdir googleassistant
 
-7)nano googleassistant/credentials.json
+7)cd googleassistant/
+8) nano credentials.json
 
-8)sudo apt install python3-dev python3-venv python3-pip libssl-dev libffi-dev libportaudio2
+9)sudo apt install python3-dev python3-venv python3-pip libssl-dev libffi-dev libportaudio2
 
-9)sudo python3 -m pip install --upgrade google-assistant-library
+10)sudo python3 -m pip install --upgrade google-assistant-library
 
-10)sudo python3 -m pip install --upgrade google-assistant-sdk[samples]
+11)sudo python3 -m pip install --upgrade google-assistant-sdk[samples]
 
-11)sudo python3 -m pip install --upgrade google-auth-oauthlib[tool]
+12)sudo python3 -m pip install --upgrade google-auth-oauthlib[tool]
 
-12)google-oauthlib-tool --client-secrets credentials.json \
+13)google-oauthlib-tool --client-secrets credentials.json \
 --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
 --scope https://www.googleapis.com/auth/gcm \
 --save --headless
 
-13)googlesamples-assistant-pushtotalk --project-id <projectid> --device-model-id <deviceid>
+14)googlesamples-assistant-pushtotalk --project-id <projectid> --device-model-id <deviceid>
 
 14) friends you can create bash file and inside that you can save the 13 number command with project id and device id so next time you can simply run your bash file to activate assitant 
