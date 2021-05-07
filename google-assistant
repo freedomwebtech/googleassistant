@@ -18,7 +18,7 @@
 
 10)sudo python3 -m pip install --upgrade google-assistant-library
 
-11)sudo python3 -m pip install --upgrade google-assistant-sdk[samples]
+11)sudo python3 -m pip install --upgrade google-assistant-sdk[samples]                       ---- run 9to12 commands with sudo
 
 12)sudo python3 -m pip install --upgrade google-auth-oauthlib[tool]
 
