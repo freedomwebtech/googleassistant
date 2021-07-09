@@ -22,8 +22,8 @@
 
 12)sudo python3 -m pip install --upgrade google-auth-oauthlib[tool]
 
-13)google-oauthlib-tool --client-secrets credentials.json \
---scope https://www.googleapis.com/auth/assistant-sdk-prototype \        -- run this 13) number command without sudo
+13)google-oauthlib-tool --client-secrets ~/googleassistant/credentials.json \
+--scope https://www.googleapis.com/auth/assistant-sdk-prototype \
 --scope https://www.googleapis.com/auth/gcm \
 --save --headless
 
